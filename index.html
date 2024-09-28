@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahnaf's Cool Portfolio | ahnaf | nafcodes</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <div class="logo">
+            <span>Naf<span>Codes</span></span>
+          </div>
+        </div>
+        <div class="right">
+          <i class="fa-solid fa-bars" onclick="openNav()" id="openBtn"></i>
+        </div>
+      </nav>
+    </header>
+    <div class="overlay" id="overlay">
+      <i class="fa-solid fa-xmark closeBtn" onclick="closeNav()"></i>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://www.fiverr.com/ahnaf_farhan24?up_rollout=true"
+            class="hire"
+            >Hire</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Home Page Section -->
+    <main>
+      <h1>
+        Hi. I am Naf<span>Codes.</span><br />
+        Nice to meet you.
+      </h1>
+    </main>
+
+    <!-- About Page Section -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="left">
+          <div class="section-title">
+            <h3>about me</h3>
+            <h2>Why am I here?</h2>
+            <div class="line"></div>
+          </div>
+          <p>Myself Ahnaf Farhan Hossain. I'm a professional self-taught Web Developer who has created more than 50+ websites including 2 portfolio websites. I also freelanced for 2+ years and satisfied clients. <br>
+            I am currently in an English Medium School in Dhaka, Bangladesh aiming for Computer Science. <br>
+            My Skills include HTML, CSS, JS, Tailwind and more.
+          </p>
+          <a href="#contact"><button class="button-1"><span class="text">Contact Me</span><span>Let's Go</span></button></a>
+          <h4>Things I am really good at</h4>
+          <div class="skillset">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JS</div>
+            <div class="skill">TailwindCSS</div>
+            <div class="skill">Visual Studio Code</div>
+            <div class="skill">Git and Github</div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="img/dark-pfp.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
