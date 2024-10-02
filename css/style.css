@@ -291,7 +291,7 @@ main h1 span {
   transform: translate(-5px, -5px);
 }
 /* Projects Section Design */
-.projects .container {
+.projects .container .main-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
